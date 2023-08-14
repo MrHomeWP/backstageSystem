@@ -1,0 +1,37 @@
+//自定义项目尺寸颜色
+//左侧菜单栏
+$layout_slider_width: 260px;
+$layout_slider_bgColor: #00152b;
+$layout_slider_min_width: 70px; //最小宽度
+//顶部导航
+$layout_tabbar_height: 50px;
+$layout_tabbar_bgColor: skyblue;
+
+//设置滚动条样式
+// ::-webkit-scrollbar {
+//     //滚动条整体
+//     width: 10px;
+// }
+
+// ::-webkit-scrollbar-track {
+//     //滚动条轨道
+//     background-color: #00152b;
+// }
+
+// ::-webkit-scrollbar-thumb {
+//     //滚动条的拖动块
+//     width: 10px;
+//     background-color: skyblue;
+//     border-radius: 10px;
+// }
+//svg图片样式
+.svg {
+    width: 15px;
+    height: 15px;
+    fill: white;
+    margin-right: 10px;
+
+    &.no_margin {
+        margin: 0;
+    }
+}
